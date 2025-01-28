@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lucia Alvaro's portfolio showcasing photography, videography, and creative projects. Explore my work and get in touch for collaborations.">
+    <meta name="author" content="Lucia Alvaro">
+    <meta name="keywords" content="Portfolio, Photography, Videography, Content Creation, F1, Creative Projects">
+    <title>Lucia Alvaro - Portfolio</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" href="./images/f1.png" type="image/x-icon">
+    <!-- Link to external fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff80d7;
+            border-radius: 10px;
+            height: 120px;
+            display: flex;
+            flex-direction: row;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .menu {
+        display: flex;
+        justify-content: space-around; /* Distribuye los elementos de manera uniforme */
+        align-items: center; /* Alinea los elementos verticalmente en el centro */
+    }
+
+        .item-menu {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            flex-direction: row;
+            flex: 1;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            background-color: #e673c5;
+        }
+
+        .item-menu:hover {
+            background-color: #cc66b2;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .about h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .about p {
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .photos {
+            margin-top: 40px;
+        }
+
+        .photos h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery figcaption {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+
+        .contact {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        form button {
+            background-color: #ff80d7;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        form button:hover {
+            background-color: #e673c5;
+        }
+
+        footer {
+            margin-top: 40px;
+            background-color: #ff80d7;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: white;
+            font-size: 1rem;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav aria-label="Main Navigation" class="menu">
+            <a class="item-menu" href="#about">About</a>
+            <a class="item-menu" href="#photos">Photos</a>
+            <a class="item-menu" href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h1>Lucia Alvaro</h1>
+            <p>Hello! I’m Lucia Alvaro, a passionate content creator with a deep love for photography, videography, and storytelling. I specialize in creating high-quality visuals and engaging content for a variety of platforms.</p>
+            <p>My expertise includes professional photography, video editing, and social media content creation. I aim to bring creative ideas to life and connect with audiences through impactful visual storytelling.</p>
+            <p>Currently, I’m exploring the exciting world of the Formula 1 industry, where I hope to merge my creative skills with my passion for motorsport. Let’s collaborate to create something extraordinary!</p>
+        </section>
+
+        <!-- Photos Section -->
+        <section id="photos" class="photos">
+            <h2>Portfolio Highlights</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="./images/img1.jpg" alt="Captivating landscape at sunrise">
+                    <figcaption>Sunrise Landscape</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/img2.jpg" alt="Portrait of a smiling woman in natural light">
+                    <figcaption>Portrait Photography</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/img3.jpg" alt="Dynamic sports action shot">
+                    <figcaption>Sports Action</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/img4.jpg" alt="Creative product photography with colorful lighting">
+                    <figcaption>Product Photography</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <p>If you're interested in collaborating or have any exciting projects in mind, feel free to reach out!</p>
+            <form action="https://example.com/submit" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Lucia Alvaro. All rights reserved.</p>
+        <p>Email: lucia.alvaro@example.com</p>
+        <p>Phone: +34 600 123 456</p>
+    </footer>
+</body>
+
+</html>
